@@ -79,7 +79,6 @@ MODEL_CANDIDATES = [
 ]
 
 ### Gemma Models
-
 ```python
 MODEL_CANDIDATES = [
     "unsloth/gemma-2b-bnb-4bit",
@@ -192,10 +191,13 @@ For questions, collaborations, or research discussions:
 
 ## ⭐ Acknowledgement
 
-This work builds upon advances in:
+This work builds upon the MSc thesis of Blessing Oluchi Iloka at University of 
+
+and the advances in:
 
 - Large Language Models (LLMs)
 - Retrieval-Augmented Generation (RAG)
 - Chain-of-Thought Prompting
 - Therapeutic Dialogue Modeling
 - Accessible Conversational AI
+- Mental Health Assistant 
