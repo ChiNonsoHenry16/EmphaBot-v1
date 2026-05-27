@@ -191,10 +191,11 @@ For questions, collaborations, or research discussions:
 
 ## ⭐ Acknowledgement
 
-This work builds upon the MSc thesis of Blessing Oluchi Iloka at University of 
+This work builds upon the 
+
+- MSc thesis of Blessing Oluchi Iloka at School of Physics, Engineering and Computer Science, University of Hertfordshire, England, United Kingdom. 
 
 and the advances in:
-
 - Large Language Models (LLMs)
 - Retrieval-Augmented Generation (RAG)
 - Chain-of-Thought Prompting
