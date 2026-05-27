@@ -1,0 +1,78 @@
+# EmphaBot: Enhancing Accessibility in Mental Health Support using a CoT-RAG-based Language Model
+
+Official implementation repository for **“EmphaBot: Enhancing Accessibility in Mental Health Support using a CoT-RAG-based Language Model.”**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/LLM-CoT--RAG-blue" />
+  <img src="https://img.shields.io/badge/Domain-Mental%20Health-green" />
+  <img src="https://img.shields.io/badge/Framework-PyTorch-orange" />
+  <img src="https://img.shields.io/badge/License-MIT-brightgreen" />
+</p>
+
+---
+
+## 🧠 Overview
+
+**EmphaBot** is a conversational AI framework designed to enhance accessibility in mental health support using a **Chain-of-Thought Retrieval-Augmented Generation (CoT-RAG)** architecture. The framework integrates:
+
+- **Large Language Models (LLMs)**
+- **Chain-of-Thought (CoT) reasoning**
+- **Retrieval-Augmented Generation (RAG)**
+- **Therapeutic dialogue grounding**
+- **Accessibility-oriented conversational support**
+
+The system aims to generate empathetic, contextually grounded, and semantically consistent therapeutic responses while reducing unsupported or hallucinated outputs.
+
+---
+
+## ✨ Key Features
+
+- 🔹 Fine-tuned **LLaMA 3 8B** and **Gemma 2B** conversational models
+- 🔹 CoT-enhanced therapeutic reasoning
+- 🔹 Elasticsearch-based BM25 retrieval pipeline
+- 🔹 Retrieval grounding using annotated therapeutic transcripts
+- 🔹 Multi-metric evaluation framework
+- 🔹 Accessibility-aware conversational response generation
+- 🔹 Comparative evaluation of:
+  - Basic
+  - Basic-RAG
+  - CoT
+  - CoT-RAG architectures
+
+---
+
+## 🏗️ System Architecture
+
+The EmphaBot pipeline consists of the following stages:
+
+| Stage | Description |
+|---|---|
+| Dataset Preparation | Cleaning and structuring empathetic and therapeutic dialogue datasets |
+| Fine-Tuning | Domain adaptation of LLaMA and Gemma models |
+| RAG Indexing | Elasticsearch BM25 indexing of therapeutic conversations |
+| Retrieval | Retrieval of contextually relevant therapeutic dialogue |
+| CoT Integration | Step-by-step reasoning during response generation |
+| Inference | Generation of grounded therapeutic responses |
+| Evaluation | Automatic and semantic evaluation of generated responses |
+
+---
+
+## 📚 Datasets
+
+The framework utilizes multiple conversational and therapeutic datasets, including:
+
+- Empathetic Dialogues Dataset
+- Mental Health Conversational Dataset
+- Annotated Therapeutic Dialogue Transcripts
+- Custom Context–Response Therapeutic Corpora
+
+---
+
+## 🤖 Base Models
+
+### LLaMA Models
+```python
+MODEL_CANDIDATES = [
+    "unsloth/llama-3-8b-Instruct-bnb-4bit",
+    "unsloth/llama-3-8b-bnb-4bit",
+]
