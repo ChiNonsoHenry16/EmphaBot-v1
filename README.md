@@ -129,7 +129,7 @@ The framework was evaluated using both traditional NLP metrics and semantic grou
 - Empathy Intent (NLI)
 - Coherence Cosine
 - Concordance Correlation Coefficient (CCC)
-- MAE / MSE
+- MAE
 
 ### Efficiency Metrics
 
@@ -172,7 +172,7 @@ If you use this work, please cite:
 ```bibtex
 @article{nwokoye2026emphabot,
   title={EmphaBot: Enhancing Accessibility in Mental Health Support using a CoT-RAG-based Language Model},
-  author={Nwokoye, Chukwunonso and others},
+  author={Nwokoye, Chukwunonso Henry and Iloka, Blessing Oluchi},
   journal={},
   year={2026}
 }
@@ -185,7 +185,7 @@ If you use this work, please cite:
 For questions, collaborations, or research discussions:
 
 **Chukwunonso Nwokoye**  
-📧 Email: your-email@example.com
+📧 Email: chinonsonwokoye@gmail.com
 
 ---
 
