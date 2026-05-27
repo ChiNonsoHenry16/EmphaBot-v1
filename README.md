@@ -76,3 +76,96 @@ MODEL_CANDIDATES = [
     "unsloth/llama-3-8b-Instruct-bnb-4bit",
     "unsloth/llama-3-8b-bnb-4bit",
 ]
+
+Gemma Models
+MODEL_CANDIDATES = [
+    "unsloth/gemma-2b-bnb-4bit",
+    "unsloth/gemma-2-2b-it-bnb-4bit",
+]
+🔎 Retrieval-Augmented Generation (RAG)
+
+EmphaBot employs a sparse retrieval pipeline using Elasticsearch BM25 retrieval.
+
+Retrieval Configuration
+Parameter	Setting
+Retrieval Engine	Elasticsearch
+Retrieval Method	BM25 Sparse Retrieval
+Retrieval Top-k	3
+Query Type	match query
+Indexing Strategy	Context–Response document indexing
+Max Context Length	180
+📊 Evaluation Metrics
+
+The framework was evaluated using both traditional NLP metrics and semantic grounding metrics.
+
+Automatic Metrics
+BLEU
+ROUGE-1
+ROUGE-2
+ROUGE-L
+ROUGE-S
+ROUGE-SU
+ROUGE-W
+Perplexity (PPL)
+Semantic & Therapeutic Metrics
+BERTScore
+BLEURT
+Semantic Similarity
+Faithfulness (NLI)
+Empathy Intent (NLI)
+Coherence Cosine
+Concordance Correlation Coefficient (CCC)
+MAE / MSE
+Efficiency Metrics
+Latency
+Token Processing Efficiency
+🛡️ Ethical Considerations
+
+EmphaBot is intended as a supportive conversational research system and not as a replacement for licensed mental health professionals.
+
+The framework incorporates:
+
+Retrieval grounding
+Semantic consistency evaluation
+Faithfulness assessment
+Context-aware therapeutic response generation
+
+Future work will further explore:
+
+hallucination auditing,
+escalation safeguards,
+and clinical deployment considerations.
+🚧 Repository Status
+
+🚧 Codebase preparation in progress
+
+The complete implementation, training scripts, evaluation pipelines, and retrieval framework will be released publicly after final repository cleanup and documentation.
+
+📄 Citation
+
+If you use this work, please cite:
+
+@article{nwokoye2026emphabot,
+  title={EmphaBot: Enhancing Accessibility in Mental Health Support using a CoT-RAG-based Language Model},
+  author={Nwokoye, Chukwunonso and others},
+  journal={},
+  year={2026}
+}
+📬 Contact
+
+For questions, collaborations, or research discussions:
+
+Chukwunonso Nwokoye
+📧 Email: your-email@example.com
+
+⭐ Acknowledgement
+
+This work builds upon advances in:
+
+Large Language Models (LLMs)
+Retrieval-Augmented Generation (RAG)
+Chain-of-Thought Prompting
+Therapeutic Dialogue Modeling
+Accessible Conversational AI
+
+## 🧩 RAG Implementation Architecture
