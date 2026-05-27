@@ -72,18 +72,20 @@ The framework utilizes multiple conversational and therapeutic datasets, includi
 
 ### LLaMA Models
 ```python
+
 MODEL_CANDIDATES = [
     "unsloth/llama-3-8b-Instruct-bnb-4bit",
     "unsloth/llama-3-8b-bnb-4bit",
 ]
 
-Gemma Models
+### Gemma Models
+```python
 MODEL_CANDIDATES = [
     "unsloth/gemma-2b-bnb-4bit",
     "unsloth/gemma-2-2b-it-bnb-4bit",
 ]
-🔎 Retrieval-Augmented Generation (RAG)
 
+## 🏗️ Retrieval-Augmented Generation (RAG)
 EmphaBot employs a sparse retrieval pipeline using Elasticsearch BM25 retrieval.
 
 Retrieval Configuration
