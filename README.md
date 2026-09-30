@@ -9,7 +9,7 @@ Official implementation repository for **“EmphaBot version 1”**
   <img src="https://img.shields.io/badge/License-MIT-brightgreen" />
 </p>
 
----
+---   
 
 ## 🧠 Overview
 
