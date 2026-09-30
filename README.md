@@ -1,6 +1,6 @@
 # EmphaBot: Enhancing Accessibility in Mental Health Support using a CoT-RAG-based Language Model
 
-Official implementation repository for **“EmphaBot version 1: Enhancing Accessibility in Mental Health Support using a CoT-RAG-based Language Model.”**
+Official implementation repository for **“EmphaBot version 1”**
    
 <p align="center">
   <img src="https://img.shields.io/badge/LLM-CoT--RAG-blue" />
