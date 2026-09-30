@@ -189,7 +189,7 @@ If you use this work, please cite:
 
 For questions, collaborations, or research discussions:
 
-**Chukwunonso Henry Nwokoye**  
+**Dr. Chukwunonso Henry Nwokoye**  
 📧 Email: chinonsonwokoye@gmail.com
 
 ---
