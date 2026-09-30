@@ -74,8 +74,8 @@ The framework utilizes multiple conversational and therapeutic datasets, includi
 
 ### LLaMA Models
 MODEL_CANDIDATES = [
-    "unsloth/llama-3-8b-Instruct-bnb-4bit",
     "unsloth/llama-3-8b-bnb-4bit",
+    "unsloth/llama-3-8b-Instruct-bnb-4bit",
 ]
 
 ### Gemma Models
