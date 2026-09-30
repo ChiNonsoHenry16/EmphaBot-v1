@@ -92,7 +92,7 @@ MODEL_CANDIDATES = [
 EmphaBot employs a sparse retrieval pipeline using Elasticsearch BM25 retrieval.
 
 ### Retrieval Configuration
-
+   
 | Parameter | Setting |
 |---|---|
 | Retrieval Engine | Elasticsearch |
