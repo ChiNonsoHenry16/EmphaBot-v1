@@ -113,7 +113,7 @@ The EmphaBot framework employs a multi-metric evaluation approach combining quan
        width="900">
 </p>
 
-**Figure 1.** Multi-metric evaluation framework for assessing EmphaBot across LLaMA 3 and Gemma 2B variants, including quantitative and qualitative evaluation dimensions.
+**Figure 9.** Multi-metric evaluation framework for assessing EmphaBot across LLaMA 3 and Gemma 2B variants, including quantitative and qualitative evaluation dimensions.
 
 ---
 
