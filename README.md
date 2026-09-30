@@ -108,7 +108,7 @@ EmphaBot employs a sparse retrieval pipeline using Elasticsearch BM25 retrieval.
 The EmphaBot framework employs a multi-metric evaluation approach combining quantitative and qualitative assessment of generated therapeutic responses.
 
 <p align="center">
-  <img src="images/evaluation-framework.png" alt="Multi-Metric Evaluation Framework" width="900">
+  <img src="images/Multi-Metric Evaluation Framework.png" alt="Multi-Metric Evaluation Framework" width="900">
 </p>
 
 **Figure 1.** Multi-metric evaluation framework for assessing EmphaBot across LLaMA 3 and Gemma 2B variants, including quantitative and qualitative evaluation dimensions.
