@@ -100,7 +100,7 @@ EmphaBot employs a sparse retrieval pipeline using Elasticsearch BM25 retrieval.
 | Retrieval Top-k | 3 |
 | Query Type | `match` query |
 | Indexing Strategy | Context–Response document indexing |
-| Max Context Length | 180 |
+
 
 ---
 
