@@ -175,11 +175,14 @@ The complete implementation, training scripts, evaluation pipelines, and retriev
 If you use this work, please cite:
 
 ```bibtex
+
 @article{nwokoye2026emphabot,
-  title={EmphaBot: Enhancing Accessibility in Mental Health Support using a CoT-RAG-based Language Model},
+  title={EmphaBot: Enhancing Accessibility in Mental Health Support using a CoT-RAG-Based Language Model},
   author={Nwokoye, Chukwunonso Henry and Iloka, Blessing Oluchi},
-  journal={},
-  year={2026}
+  journal={Computers in Human Behavior Reports},
+  pages={101361},
+  year={2026},
+  publisher={Elsevier}
 }
 ```
 
